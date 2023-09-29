@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&display=swap");
+
+body {
+  background: #f1f1f0;
+}
+
+.googleMaps {
+  width: 100%;
+  height: 500px;
+}
+.googleMaps iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.btnEnviarMensaje {
+  background: #925438;
+  color: #f1f1f0;
+}
+
+.titulosContacto {
+  position: relative;
+  font-family: "Brygada 1918", serif;
+  color: #193350;
+}
+.formularioContacto {
+  box-shadow: 5px 5px 20px rgba(19, 33, 50, 0.2);
+  color: #193350;
+}
+.formularioContacto p {
+  color: #193350;
+  font-family: "Roboto", sans-serif;
+}
+.formularioContacto h3 {
+  color: #925438;
+}
+.ubicacionContacto h3 {
+  font-family: "Brygada 1918", serif;
+  color: #925438;
+}
+.ubicacionContacto p {
+  font-family: "Roboto", sans-serif;
+  color: #193350;
+}
+
+.logoContacto {
+  position: relative;
+  top: 180px;
+  color: #193350;
+  width: 600px;
+}
+
+
+/* mediaqueries*/
+@media screen and (max-width: 767px) {
+  .logoContacto {
+    top: 20px;
+  }
+}
